@@ -56,7 +56,7 @@ Incorrect Email
 
 Validating empty field email
 
-    [Tags]    empty_email
+    [Tags]    empty
 
     ${user}    Create Dictionary    email=${EMPTY}    password=123456
 
@@ -67,7 +67,7 @@ Validating empty field email
 
 Validating empty field password
 
-    [Tags]    empty_password
+    [Tags]    empty
 
     ${user}    Create Dictionary    email=renatoreis@live.com    password=${EMPTY}
 
@@ -78,7 +78,7 @@ Validating empty field password
 
 Validating empty fields
 
-    [Tags]    empty_fields
+    [Tags]    empty
 
     ${expected_alerts}    Create List
     ...                   E-mail obrigatório

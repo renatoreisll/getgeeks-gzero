@@ -1,10 +1,18 @@
 *Settings*
-Documentation                   Test Helpers
+Documentation    Test Helpers
 
 *Keywords*
 Add User From Database
-    [Arguments]             ${user}
+    [Arguments]    ${user}
 
     Connect to Postgres
-    Insert User  ${user}
+    Insert User                 ${user}
     Disconnect From Database
+
+Do Login
+    [Arguments]    ${user}
+    
+    Go To Login Page
+    Fill Credentials  ${user}
+    Submit Credentials
+    User Should Be Logged In    ${user}

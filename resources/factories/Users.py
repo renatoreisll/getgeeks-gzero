@@ -34,3 +34,18 @@ def factory_user_login():
         'email': 'renatoreis@live.com',
         'password': 'pwd123'
     }
+
+def factory_user_be_geek():
+    return {
+        'name': 'Kim',
+        'lastname': 'Dotcom',
+        'email': 'kim@dot.com',
+        'password': 'pwd123',
+        'geek_profile': {
+                'whats': '11999999999',
+                'desc': 'Seu computador está lento, reiniciando do nada? Talvez seja um vírus... Posso formatar seu PC!',
+                'printer_repair': 'Sim',
+                'work': 'Remoto',
+                'cost': '100'
+        }
+    }

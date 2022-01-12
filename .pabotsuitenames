@@ -1,0 +1,7 @@
+datasources:3486f665a0f5437b195b89a8883af9fe41ae2cb2
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:ad2df04fd41b18e54457c29d3b0a30d02f06cd02
+--suite Tests.BeGeek
+--suite Tests.Login
+--suite Tests.Signup

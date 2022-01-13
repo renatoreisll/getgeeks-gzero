@@ -40,7 +40,20 @@ def factory_user(target):
                 'work': 'Remoto',
                 'cost': '100'
             }
+        },
+        'attempt_be_geek': {
+            'name': 'Dio',
+            'lastname': 'Linux',
+            'email': 'dio@linux.com',
+            'password': 'pwd123',
+            'geek_profile': {
+                'whats': '11999999999',
+                'desc': 'Seu computador está lento? Reiniciando do nada? Talvez seja um vírus, ou algum hardware com defeito. Posso fazer a manutenção no seu PC, formando, reinstalando o SO, trocando algum componente físico e porque não remover o baidu ou qualquer outro malware.',
+                'printer_repair': 'Não',
+                'work': 'Ambos',
+                'cost': '200'
         }
+      }
     }
 
     return data[target]

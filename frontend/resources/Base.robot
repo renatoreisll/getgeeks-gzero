@@ -18,7 +18,7 @@ Resource    Database.robot
 Resource    Helpers.robot
 
 *Variables*
-${BASE_URL}    https://getgeeks-renato.herokuapp.com
+${BASE_URL}    https://getgeeks-renatoll.herokuapp.com
 
 *Keywords*
 Start Session

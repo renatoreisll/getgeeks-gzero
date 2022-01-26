@@ -24,8 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install -r requirements.txt
-    - name: Lint with flake8
     - name: Run API Tests
-      run: |
+      run: | 
         chmod +x ./backend/run.sh
         cd backend/ && ./run.sh
